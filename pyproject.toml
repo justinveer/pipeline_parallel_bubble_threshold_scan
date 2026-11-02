@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "justinveer-disttrain_jd386"
+name = "justinveer-pipeline_parallel_bubble_threshold_scan"
 version = "0.1.0"
 description = "为每一项打分并与阈值比较，明确标出通过、边界与不通过三档"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://justinveer.github.io"
-Repository = "https://github.com/justinveer/disttrain_jd386"
-Issues = "https://github.com/justinveer/disttrain_jd386/issues"
+Repository = "https://github.com/justinveer/pipeline_parallel_bubble_threshold_scan"
+Issues = "https://github.com/justinveer/pipeline_parallel_bubble_threshold_scan/issues"
 
 [project.scripts]
-disttrain_jd386 = "disttrain_jd386:main"
+pipeline_parallel_bubble_threshold_scan = "pipeline_parallel_bubble_threshold_scan:main"
 
 [tool.setuptools]
-py-modules = ["disttrain_jd386"]
+py-modules = ["pipeline_parallel_bubble_threshold_scan"]
